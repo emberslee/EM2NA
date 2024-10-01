@@ -1,0 +1,20 @@
+name: em2na
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8.8
+  - numpy=1.20.1
+  - scipy=1.6.2
+  - pip
+  - pip:
+    - ortools==9.4.1874
+    - tqdm==4.62.1
+    - biopython==1.78
+    - einops==0.3.2
+    - mrcfile==1.3.0
+    - timm==0.4.12
+    - pillow==10.2.0
+    - https://download.pytorch.org/whl/cu111/torch-1.9.0%2Bcu111-cp38-cp38-linux_x86_64.whl
+    - https://download.pytorch.org/whl/cu111/torchvision-0.10.0%2Bcu111-cp38-cp38-linux_x86_64.whl
+    - https://download.pytorch.org/whl/torchaudio-0.9.0-cp38-cp38-linux_x86_64.whl

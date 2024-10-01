@@ -1,0 +1,10 @@
+This package is downloaded from https://github.com/pylelab/Arena
+Author:
+Zion R Perry, Anna Marie Pyle, Chengxin Zhang
+
+Original reference:
+Zion R Perry, Anna Marie Pyle, Chengxin Zhang (2023) Arena: rapid and accurate reconstruction of full atomic RNA structures from coarse-grained models. Journal of Molecular Biology.
+
+make all
+cp Arena ../../bin/cg2aa
+cp Arena_dna ../../bin/cg2aa_dna
